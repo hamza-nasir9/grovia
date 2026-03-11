@@ -4,7 +4,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { services } from '@/Component/data/services';
+import { services } from '@/Component/Data/services';
 import { 
   FaArrowLeft, 
   FaCheck, 
