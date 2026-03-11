@@ -82,7 +82,7 @@ const Footer = () => {
                   { icon: <FaInstagram />, color: 'bg-pink-600', label: 'Instagram' , link:'https://www.instagram.com/grovi_adigital/' },
                   { icon: <FaWhatsapp />, color: 'bg-green-600', label: 'WhatsApp', link:'https://wa.me/qr/5S7A3ZMGXKJDL1' },
                 ].map((social, idx) => (
-                  <motion.a
+                  <motion.span
                     key={idx}
                     href="#"
                     whileHover={{ y: -5, scale: 1.1 }}
@@ -91,7 +91,7 @@ const Footer = () => {
                     aria-label={social.label}
                   >
                    <Link href={social.link}>  {social.icon}</Link>
-                  </motion.a>
+                  </motion.span>
                 ))}
               </div>
             </motion.div>

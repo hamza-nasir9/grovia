@@ -83,7 +83,7 @@ export default function PremiumNavbar() {
               <Link
                 key={item.name}
                 href={item.path}
-                className={`relative font-medium transition-colors ${
+                className={`relative font-medium transition-colors uppercase ${
                   pathname === item.path 
                     ? 'text-emerald-400 font-semibold' 
                     : 'text-gray-300 hover:text-emerald-300'

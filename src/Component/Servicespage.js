@@ -3,7 +3,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { services } from '@/Component/data/services';
+import { services } from '@/Component/Data/services';
 import { 
   FaArrowRight, 
   FaCheck, 
