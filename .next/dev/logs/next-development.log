@@ -1,0 +1,7 @@
+[00:00:20.063] Server  LOG     ✓ Ready in 17.9s
+[00:00:23.081] Server  LOG     ○ Compiling / ...
+[00:00:45.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:48.144] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:02:18.327] Server  LOG     ✓ Compiled in 1696ms
+[00:02:21.738] Browser WARN    'oklab(0.393 -0.0842927 0.0438147 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[00:02:24.276] Browser WARN    'oklab(0.393 -0.0842927 0.0438147 / 0.2)' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable

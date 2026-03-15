@@ -5,56 +5,56 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import { useRef } from 'react';
 
-// Green & Black theme icons (using emojis/unicode to avoid package issues)
-const GreenIcons = {
-  Performance: '📈',
-  SocialMedia: '📱',
-  Content: '🎬',
-  WebDev: '💻',
-  SEO: '🔍',
-  Analytics: '📊'
-};
+// Heroicons import
+import {
+  ChartBarIcon,
+  ShareIcon,
+  FilmIcon,
+  ComputerDesktopIcon,
+  MagnifyingGlassIcon,
+  DocumentChartBarIcon
+} from '@heroicons/react/24/outline';
 
 const services = [
   {
     title: "Performance Marketing",
     description: "We don't just run ads — we scale businesses. From Meta to Google & from Snapchat to TikTok, our performance marketing strategies are built to convert, not just get clicks.",
-    icon: GreenIcons.Performance,
+    icon: ChartBarIcon,
     color: "from-green-500 to-emerald-600",
     delay: 0.1
   },
   {
     title: "Social Media Marketing",
     description: "Social media isn't just about posting pretty pictures — it's about building a brand people actually care about. We help you show up, stay consistent, and stay relevant.",
-    icon: GreenIcons.SocialMedia,
+    icon: ShareIcon,
     color: "from-black to-green-900",
     delay: 0.2
   },
   {
     title: "Content Marketing",
     description: "From reels to product shoots, we create content that looks good and sells. Strategic storytelling that converts viewers into customers.",
-    icon: GreenIcons.Content,
+    icon: FilmIcon,
     color: "from-green-600 to-green-800",
     delay: 0.3
   },
   {
     title: "Web Design & Development",
     description: "Transform your vision into a user-friendly and visually appealing website or app design that drives results and enhances user experience.",
-    icon: GreenIcons.WebDev,
+    icon: ComputerDesktopIcon,
     color: "from-black to-gray-800",
     delay: 0.4
   },
   {
     title: "SEO Optimization",
     description: "Dominate search rankings with data-driven SEO strategies that drive organic traffic and increase visibility across all search engines.",
-    icon: GreenIcons.SEO,
+    icon: MagnifyingGlassIcon,
     color: "from-green-400 to-green-600",
     delay: 0.5
   },
   {
     title: "Analytics & Reporting",
     description: "Comprehensive performance tracking and actionable insights to measure ROI and optimize your marketing strategies continuously.",
-    icon: GreenIcons.Analytics,
+    icon: DocumentChartBarIcon,
     color: "from-black to-green-950",
     delay: 0.6
   },
@@ -62,26 +62,16 @@ const services = [
 
 export default function ServicesSection() {
   const containerRef = useRef(null);
+  
+  // Hooks top level par call karo
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"]
+  });
 
-  // Parallax scroll effects - Server side error ko avoid karne ke liye check
-  let scrollYProgress = { value: 0 };
-  let opacity = 1;
-  let y = 0;
-  let scale = 1;
-
-  // Client side par hi useScroll use karein
-  if (typeof window !== 'undefined') {
-    const { useScroll, useTransform } = require('framer-motion');
-    const { scrollYProgress: sp } = useScroll({
-      target: containerRef,
-      offset: ["start end", "end start"]
-    });
-
-    scrollYProgress = sp;
-    opacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 1, 1, 0]);
-    y = useTransform(scrollYProgress, [0, 1], [100, -100]);
-    scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.9, 1, 1, 0.95]);
-  }
+  const opacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 1, 1, 0]);
+  const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
+  const scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.9, 1, 1, 0.95]);
 
   return (
     <section
@@ -93,12 +83,12 @@ export default function ServicesSection() {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-green-500 to-transparent opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* ✅ FIXED: Section Header - Center Aligned */}
+        {/* Section Header */}
         <motion.div
           style={{ opacity, y, scale }}
           className="flex flex-col items-center justify-center text-center mb-12 md:mb-20 w-full"
         >
-          {/* Badge - Centered */}
+          {/* Badge */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -113,34 +103,32 @@ export default function ServicesSection() {
             <div className="w-6 h-px bg-green-500" />
           </motion.div>
 
-          {/* ✅ FIXED: Main Title - Properly Centered */}
-          <div className="w-full bg-pink flex flex-col items-center justify-center py-6 md:py-10">
-            <motion.h2
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
-              viewport={{ once: true }}
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center leading-snug md:leading-normal tracking-tight"
-            >
-              <span className="block bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
-                Marketing Services
-              </span>
-            </motion.h2>
-          </div>
+          {/* Title */}
+          <motion.h2
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center"
+          >
+            <span className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+              Marketing Services
+            </span>
+          </motion.h2>
 
-          {/* ✅ FIXED: Subtitle - Centered */}
+          {/* Subtitle */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed text-center"
+            className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto"
           >
             From strategic planning to execution and optimization, we provide comprehensive digital solutions that drive measurable growth for franchises and multi-location brands.
           </motion.p>
         </motion.div>
 
-        {/* Services Grid with Stagger Animation */}
+        {/* Services Grid */}
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -150,82 +138,96 @@ export default function ServicesSection() {
             visible: {
               opacity: 1,
               transition: {
-                staggerChildren: 0.15,
-                delayChildren: 0.2
+                staggerChildren: 0.15
               }
             }
           }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
         >
-          {services.map((service, index) => (
-            <motion.div
-              key={index}
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: 60,
-                  scale: 0.95
-                },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  scale: 1,
-                  transition: {
-                    duration: 0.6,
-                    ease: "easeOut",
-                    delay: service.delay
+          {services.map((service, index) => {
+            const IconComponent = service.icon;
+            return (
+              <motion.div
+                key={index}
+                variants={{
+                  hidden: { opacity: 0, y: 50 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: { delay: service.delay }
                   }
-                }
-              }}
-              whileHover={{
-                y: -8,
-                scale: 1.02,
-                transition: { duration: 0.3 }
-              }}
-              className="group relative"
-            >
-              {/* Card */}
-              <div className="relative h-full overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-black border border-gray-800 p-6 md:p-8 transition-all duration-500 hover:border-green-500/50 hover:shadow-2xl hover:shadow-green-500/10">
+                }}
+                whileHover={{ 
+                  y: -8,
+                  transition: { 
+                    duration: 0.3,
+                    ease: "easeOut"
+                  }
+                }}
+                className="group relative"
+              >
+                {/* Card - Smooth hover effects */}
+                <div className="relative h-full overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-black border border-gray-800 p-6 md:p-8 transition-all duration-300 ease-out hover:border-green-500/50 hover:shadow-xl hover:shadow-green-500/10">
+                  
+                  {/* Smooth Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 via-transparent to-transparent opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100" />
+                  
+                  {/* Icon - Smooth scale */}
+                  <motion.div 
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                    className={`relative z-10 mb-6 w-16 h-16 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center transition-shadow duration-300 group-hover:shadow-md group-hover:shadow-green-500/20`}
+                  >
+                    <IconComponent className="w-8 h-8 text-white" />
+                  </motion.div>
 
-                {/* Hover Effect Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  {/* Title - Smooth color transition */}
+                  <h3 className="relative z-10 text-xl md:text-2xl font-bold mb-4 text-white transition-colors duration-300 ease-out group-hover:text-green-400">
+                    {service.title}
+                  </h3>
 
-                {/* Icon Container */}
-                <div className={`relative z-10 mb-6 w-16 h-16 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-500`}>
-                  <span className="text-2xl md:text-3xl">{service.icon}</span>
-                </div>
+                  {/* Description - Smooth color */}
+                  <p className="relative z-10 text-gray-400 text-sm md:text-base leading-relaxed mb-6 transition-colors duration-300 ease-out group-hover:text-gray-300">
+                    {service.description}
+                  </p>
 
-                {/* Title */}
-                <h3 className="relative z-10 text-xl md:text-2xl font-bold mb-4 text-white group-hover:text-green-400 transition-colors duration-300">
-                  {service.title}
-                </h3>
-
-                {/* Description */}
-                <p className="relative z-10 text-gray-400 text-sm md:text-base leading-relaxed mb-6">
-                  {service.description}
-                </p>
-
-                {/* Read More Link */}
-                <div className="relative z-10 flex items-center">
-                  <span className="text-green-500 text-sm font-medium group-hover:text-green-400 transition-colors duration-300">
-                    Learn More
-                  </span>
-                  <div className="ml-2 w-0 group-hover:w-6 transition-all duration-300 overflow-hidden">
-                    <span className="text-green-500">→</span>
+                  {/* Learn More - Smooth slide */}
+                  <div className="relative z-10 flex items-center">
+                    <span className="text-green-500 text-sm font-medium transition-colors duration-300 group-hover:text-green-400">
+                      Learn More
+                    </span>
+                    <motion.span 
+                      className="ml-2 text-green-500"
+                      animate={{ x: 0 }}
+                      whileHover={{ x: 5 }}
+                      transition={{ duration: 0.2, ease: "easeOut" }}
+                    >
+                      →
+                    </motion.span>
                   </div>
+
+                  {/* Bottom Line - Smooth width expansion */}
+                  <motion.div 
+                    initial={{ width: 0 }}
+                    whileHover={{ width: "100%" }}
+                    transition={{ duration: 0.3, ease: "easeOut" }}
+                    className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-green-500 to-emerald-400"
+                  />
                 </div>
 
-                {/* Decorative Line */}
-                <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-green-500 to-emerald-400 group-hover:w-full transition-all duration-500" />
-              </div>
-
-              {/* Floating Element (Desktop only) */}
-              <div className="hidden lg:block absolute -top-2 -right-2 w-4 h-4 bg-green-500 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping transition-opacity duration-300" />
-            </motion.div>
-          ))}
+                {/* Floating dot - Smooth opacity */}
+                <motion.div 
+                  initial={{ opacity: 0, scale: 0 }}
+                  whileHover={{ opacity: 0.5, scale: 1 }}
+                  transition={{ duration: 0.2 }}
+                  className="hidden lg:block absolute -top-2 -right-2 w-4 h-4 bg-green-500 rounded-full"
+                />
+              </motion.div>
+            );
+          })}
         </motion.div>
 
-        {/* CTA Button with Animation */}
+        {/* CTA Button */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -233,28 +235,65 @@ export default function ServicesSection() {
           viewport={{ once: true }}
           className="flex justify-center mt-12 md:mt-20"
         >
-          <button className="group relative px-8 sm:px-12 py-4 sm:py-5 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 text-white font-bold text-sm sm:text-base transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/30 hover:scale-105 active:scale-95 overflow-hidden">
-
-            {/* Button Background Effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-            {/* Button Content */}
-            <Link href={'/services'} > <span className="relative z-10 flex items-center">
-              View All Services
-              <span className="ml-3 group-hover:translate-x-2 transition-transform duration-300">→</span>
-            </span></Link>
-
-            {/* Button Border Animation */}
-            <div className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-green-400/50 transition-all duration-300" />
-          </button>
+          <Link href="/services">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.98 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              className="group relative px-8 sm:px-12 py-4 sm:py-5 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 text-white font-bold text-sm sm:text-base transition-shadow duration-300 hover:shadow-xl hover:shadow-green-500/20"
+            >
+              <span className="relative z-10 flex items-center">
+                View All Services
+                <motion.span 
+                  className="ml-3 inline-block"
+                  animate={{ x: 0 }}
+                  whileHover={{ x: 5 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  →
+                </motion.span>
+              </span>
+            </motion.button>
+          </Link>
         </motion.div>
-
       </div>
 
-      {/* Floating Elements */}
-      <div className="absolute bottom-10 left-1/4 w-4 h-4 bg-green-500 rounded-full opacity-20 animate-pulse" />
-      <div className="absolute top-20 right-1/4 w-3 h-3 bg-green-400 rounded-full opacity-30 animate-ping" />
-      <div className="absolute top-1/2 left-10 w-2 h-2 bg-emerald-500 rounded-full opacity-40" />
+      {/* Floating Elements - Smooth animations */}
+      <motion.div 
+        animate={{
+          y: [0, -15, 0],
+        }}
+        transition={{
+          duration: 4,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+        className="absolute bottom-10 left-1/4 w-4 h-4 bg-green-500 rounded-full opacity-20"
+      />
+      
+      <motion.div 
+        animate={{
+          scale: [1, 1.3, 1],
+        }}
+        transition={{
+          duration: 3,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+        className="absolute top-20 right-1/4 w-3 h-3 bg-green-400 rounded-full opacity-30"
+      />
+      
+      <motion.div 
+        animate={{
+          x: [0, 15, 0],
+        }}
+        transition={{
+          duration: 5,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+        className="absolute top-1/2 left-10 w-2 h-2 bg-emerald-500 rounded-full opacity-40"
+      />
     </section>
   );
 }

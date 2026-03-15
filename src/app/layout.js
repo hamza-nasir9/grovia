@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
-        <WhatsAppFloater/>
+        {/* <WhatsAppFloater/> */}
         <Footer/>
       </body>
     </html>

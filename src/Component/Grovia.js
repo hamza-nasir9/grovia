@@ -9,288 +9,239 @@ const Grovia = () => {
     setIsLoaded(true);
   }, []);
 
-  // Animated Counter Component
-const Counter = ({ end, label, duration = 2 }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.3 });
-  const [count, setCount] = useState(0);
-  const controls = useAnimation();
-  const [isHovered, setIsHovered] = useState(false);
-
-  useEffect(() => {
-    if (isInView) {
-      controls.start({ opacity: 1, y: 0 });
-      
-      let start = 0;
-      const increment = end / (duration * 60);
-      
-      const timer = setInterval(() => {
-        start += increment;
-        if (start > end) {
-          setCount(end);
-          clearInterval(timer);
-        } else {
-          setCount(Math.floor(start));
-        }
-      }, 1000 / 60);
-
-      return () => clearInterval(timer);
-    }
-  }, [isInView, end, duration, controls]);
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 30 }}
-      animate={controls}
-      whileHover={{ 
-        scale: 1.05,
-        transition: { duration: 0.3 }
-      }}
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
-      className="relative cursor-pointer"
-    >
-      {/* Animated Background Glow */}
-      <motion.div
-        animate={isHovered ? {
-          opacity: 1,
-          scale: 1.1,
-        } : {
-          opacity: 0,
-          scale: 1,
-        }}
-        className="absolute -inset-3 rounded-full bg-gradient-to-r from-green-500/10 to-emerald-500/5 blur-xl transition-all duration-500"
-      />
-      
-      {/* Main Counter Container */}
-      <div className="relative mx-auto mb-4 w-28 h-28 md:w-36 md:h-36">
-        {/* Animated Outer Ring */}
-        <motion.div
-          animate={isHovered ? {
-            rotate: 360,
-            borderWidth: "3px",
-          } : {
-            rotate: 0,
-            borderWidth: "1px",
-          }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="absolute inset-0 rounded-full border border-green-500/30"
-        />
-        
-        {/* Gradient Border */}
-        <div className={`absolute inset-0 rounded-full p-1 ${
-          isHovered 
-            ? 'bg-gradient-to-br from-green-400 via-emerald-500 to-green-600' 
-            : 'bg-gradient-to-br from-gray-700 to-gray-800'
-        } transition-all duration-500`}>
-          
-          {/* Inner Circle */}
-          <div className={`absolute inset-1 rounded-full flex items-center justify-center ${
-            isHovered 
-              ? 'bg-gradient-to-br from-gray-900 to-black' 
-              : 'bg-gradient-to-br from-gray-900/90 to-black'
-          } transition-all duration-500`}>
-            
-            {/* Counter Number with Glow Effect */}
-            <motion.div
-              animate={isHovered ? {
-                scale: 1.1,
-                textShadow: "0 0 15px rgba(74, 222, 128, 0.4)",
-              } : {
-                scale: 1,
-                textShadow: "none",
-              }}
-              transition={{ duration: 0.3 }}
-              className="text-4xl md:text-5xl font-bold text-green-400"
-            >
-              {count}+
-            </motion.div>
-            
-            {/* Small Animated Dots */}
-            <div className="absolute bottom-4 flex space-x-1">
-              {[0, 1, 2].map((dot) => (
-                <motion.div
-                  key={dot}
-                  animate={isHovered ? {
-                    scale: [1, 1.5, 1],
-                    opacity: [0.6, 1, 0.6],
-                  } : {}}
-                  transition={{
-                    duration: 1.5,
-                    repeat: isHovered ? Infinity : 0,
-                    delay: dot * 0.2,
-                  }}
-                  className="w-1.5 h-1.5 rounded-full bg-green-400/70"
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-        
-        {/* Floating Particles on Hover */}
-        {isHovered && (
-          <>
-            {[...Array(4)].map((_, i) => (
-              <motion.div
-                key={i}
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{
-                  scale: [0, 1, 0],
-                  opacity: [0, 0.8, 0],
-                  x: Math.cos(i * 90) * 25,
-                  y: Math.sin(i * 90) * 25,
-                }}
-                transition={{
-                  duration: 2,
-                  repeat: Infinity,
-                  delay: i * 0.3,
-                }}
-                className="absolute top-1/2 left-1/2 w-2 h-2 rounded-full bg-green-400/50"
-              />
-            ))}
-          </>
-        )}
-      </div>
-      
-      {/* Label with Enhanced Styling */}
-      <div className="text-center">
-        <motion.div
-          animate={isHovered ? {
-            color: "#4ade80",
-            y: -2,
-          } : {
-            color: "#d1d5db",
-            y: 0,
-          }}
-          className="uppercase tracking-wider text-xs md:text-sm font-medium mb-2 transition-colors duration-300"
-        >
-          {label}
-        </motion.div>
-        
-        {/* Animated Underline */}
-        <motion.div
-          animate={isHovered ? {
-            width: "60px",
-            backgroundColor: "#4ade80",
-          } : {
-            width: "30px",
-            backgroundColor: "#6b7280",
-          }}
-          className="h-0.5 mx-auto rounded-full transition-all duration-300"
-        />
-      </div>
-    </motion.div>
-  );
-};
-  // Feature Card Component
-  const FeatureCard = ({ title, description, index }) => {
+  // ✅ PERFECT: Circle + Text Zoom on Hover
+  const Counter = ({ end, label, duration = 2, suffix = "+" }) => {
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true, threshold: 0.2 });
+    const isInView = useInView(ref, { once: true, threshold: 0.3 });
+    const [count, setCount] = useState(0);
+    const [isHovered, setIsHovered] = useState(false);
+    
+    useEffect(() => {
+      if (isInView) {
+        let startTime;
+        let animationFrame;
+        
+        const animate = (timestamp) => {
+          if (!startTime) startTime = timestamp;
+          const progress = Math.min((timestamp - startTime) / (duration * 1000), 1);
+          
+          const easeOutCubic = 1 - Math.pow(1 - progress, 3);
+          setCount(Math.floor(easeOutCubic * end));
+          
+          if (progress < 1) {
+            animationFrame = requestAnimationFrame(animate);
+          }
+        };
+        
+        animationFrame = requestAnimationFrame(animate);
+        
+        return () => {
+          if (animationFrame) {
+            cancelAnimationFrame(animationFrame);
+          }
+        };
+      }
+    }, [isInView, end, duration]);
 
     return (
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 30 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5, delay: index * 0.1 }}
-        whileHover={{ y: -5 }}
-        className="group"
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        onHoverStart={() => setIsHovered(true)}
+        onHoverEnd={() => setIsHovered(false)}
+        className="relative cursor-pointer group w-full max-w-[200px] mx-auto"
       >
-        <div className="relative p-6 h-86 md:p-8 rounded-xl bg-gradient-to-br from-gray-900/50 to-black/50 border border-gray-800/50 group-hover:border-green-500/30 transition-all duration-300 backdrop-blur-sm">
-          {/* Simple Icon */}
-          <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-gray-800 to-black border border-gray-700 flex items-center justify-center mb-6">
-            <div className="w-6 h-6 rounded-full bg-gradient-to-br from-green-500 to-green-600"></div>
-          </div>
+        {/* Main Counter Container */}
+        <div className="relative mx-auto mb-3 sm:mb-4">
           
-          {/* Title */}
-          <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">
-            {title}
-          </h3>
+          {/* Circle Container - Zoom on hover */}
+          <motion.div
+            animate={{ 
+              scale: isHovered ? 1.08 : 1,  // Circle 8% bara
+            }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 mx-auto"
+          >
+            {/* Base Circle */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-gray-800 to-gray-900" />
+            
+            {/* DEFAULT GLOW */}
+            <div className="absolute inset-0 rounded-full shadow-[0_0_10px_rgba(74,222,128,0.2)]" />
+            
+            {/* HOVER GLOW */}
+            <motion.div
+              animate={{ 
+                boxShadow: isHovered 
+                  ? '0 0 20px #4ade80' 
+                  : '0 0 10px rgba(74,222,128,0.2)'
+              }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              className="absolute inset-0 rounded-full"
+            />
+            
+            {/* Border Ring */}
+            <motion.div
+              animate={{ 
+                borderColor: isHovered ? '#4ade80' : '#374151',
+              }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              className="absolute inset-0 rounded-full border-2"
+            />
+            
+            {/* Inner Circle with Number */}
+            <div className="absolute inset-[3px] rounded-full bg-gradient-to-br from-gray-900 to-black flex items-center justify-center">
+              <motion.span
+                animate={{ 
+                  scale: isHovered ? 1.15 : 1,  // Text 15% bara
+                  color: isHovered ? '#4ade80' : '#4ade80',
+                  textShadow: isHovered 
+                    ? '0 0 12px #4ade80' 
+                    : '0 0 5px rgba(74,222,128,0.3)'
+                }}
+                transition={{ duration: 0.2, ease: "easeOut" }}
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold"
+              >
+                {count}{suffix}
+              </motion.span>
+            </div>
+          </motion.div>
+        </div>
+        
+        {/* Label */}
+        <div className="text-center">
+          <motion.p
+            animate={{ 
+              y: isHovered ? -2 : 0,
+              color: isHovered ? '#4ade80' : '#9CA3AF',
+            }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="text-xs sm:text-sm md:text-base font-medium tracking-wide px-2"
+          >
+            {label}
+          </motion.p>
           
-          {/* Description */}
-          <p className="text-gray-400 leading-relaxed">
-            {description}
-          </p>
-          
-          {/* Hover Line */}
-          <div className="h-0.5 mt-6 w-0 group-hover:w-full bg-green-500 transition-all duration-500"></div>
+          {/* Underline */}
+          <motion.div 
+            animate={{ 
+              width: isHovered ? '40px' : '20px',
+              backgroundColor: isHovered ? '#4ade80' : '#4B5563',
+            }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="h-0.5 mx-auto mt-1 sm:mt-2 rounded-full"
+          />
         </div>
       </motion.div>
     );
   };
 
+  // ✅ Feature Card with Responsive Design
+  const FeatureCard = ({ title, description, index }) => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true, threshold: 0.2 });
+    const [isHovered, setIsHovered] = useState(false);
+
+    return (
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: 30 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+        onHoverStart={() => setIsHovered(true)}
+        onHoverEnd={() => setIsHovered(false)}
+        className="relative group w-full"
+      >
+        <motion.div 
+          animate={{ 
+            y: isHovered ? -3 : 0,
+            borderColor: isHovered ? '#4ade80' : '#1F2937',
+            boxShadow: isHovered 
+              ? '0 0 20px #4ade80' 
+              : '0 0 10px rgba(74,222,128,0.1)'
+          }}
+          transition={{ duration: 0.2, ease: "easeOut" }}
+          className="relative p-4 sm:p-5 md:p-6 lg:p-8 rounded-lg sm:rounded-xl bg-gradient-to-br from-gray-900 to-black border overflow-hidden"
+        >
+          {/* Icon */}
+          <motion.div 
+            animate={{ 
+              scale: isHovered ? 1.1 : 1,
+            }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-lg bg-gray-800 flex items-center justify-center mb-3 sm:mb-4 md:mb-6"
+          >
+            <motion.div 
+              animate={{ 
+                scale: isHovered ? 1.15 : 1,
+                boxShadow: isHovered ? '0 0 15px #4ade80' : 'none'
+              }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full bg-gradient-to-br from-green-400 to-green-600"
+            />
+          </motion.div>
+          
+          {/* Title */}
+          <motion.h3 
+            animate={{ 
+              color: isHovered ? '#4ade80' : '#FFFFFF',
+            }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold mb-2 sm:mb-3"
+          >
+            {title}
+          </motion.h3>
+          
+          {/* Description */}
+          <motion.p 
+            animate={{ color: isHovered ? '#E5E7EB' : '#9CA3AF' }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="text-xs sm:text-sm md:text-base leading-relaxed"
+          >
+            {description}
+          </motion.p>
+          
+          {/* Bottom Line */}
+          <motion.div 
+            animate={{ 
+              width: isHovered ? '100%' : '0%',
+              opacity: isHovered ? 1 : 0,
+            }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-green-400 to-green-600"
+          />
+        </motion.div>
+      </motion.div>
+    );
+  };
+
   return (
-    <div className="relative min-h-screen text-white overflow-hidden">
-      {/* Professional Background */}
-      <div className="absolute inset-0">
-        {/* Base Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-black to-green-950/20"></div>
-        
-        {/* Subtle Animated Gradient */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="absolute inset-0 opacity-30"
-          style={{
-            background: `
-              radial-gradient(circle at 20% 30%, rgba(34, 197, 94, 0.1) 0%, transparent 40%),
-              radial-gradient(circle at 80% 70%, rgba(16, 185, 129, 0.05) 0%, transparent 40%),
-              linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%)
-            `,
-          }}
-        />
-        
-        {/* Very Subtle Moving Gradient */}
-        <motion.div
-          animate={{
-            backgroundPosition: ['0% 0%', '100% 100%'],
-          }}
-          transition={{
-            duration: 30,
-            repeat: Infinity,
-            repeatType: "reverse",
-            ease: "linear"
-          }}
-          className="absolute inset-0 opacity-10"
-          style={{
-            backgroundImage: `linear-gradient(45deg, rgba(34, 197, 94, 0.05) 0%, transparent 50%, rgba(34, 197, 94, 0.05) 100%)`,
-            backgroundSize: '400% 400%',
-          }}
-        />
-        
-        {/* Subtle Grid Pattern */}
-        <div 
-          className="absolute inset-0 opacity-5"
-          style={{
-            backgroundImage: `linear-gradient(rgba(34, 197, 94, 0.1) 1px, transparent 1px),
-                              linear-gradient(90deg, rgba(34, 197, 94, 0.1) 1px, transparent 1px)`,
-            backgroundSize: '50px 50px',
-          }}
-        />
+    <div className="relative min-h-screen text-white overflow-hidden bg-black">
+      {/* Background - Pure black */}
+      <div className="absolute inset-0 bg-black">
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-950 to-black" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 py-12 md:py-24">
-       
-
-        {/* Stats Section */}
-        <section className="mb-24">
+      <div className="relative z-10 container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-24">
+        {/* Header */}
+        <section className="mb-12 sm:mb-16 md:mb-20 lg:mb-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="text-center mb-8 sm:mb-12 md:mb-16"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-4 px-4">
               Digital Marketing <span className="text-green-400">Excellence</span>
             </h1>
-            <p className="text-gray-400 max-w-2xl mx-auto">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto px-4">
               5+ years of expertise delivering measurable results for global brands
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          {/* Counters Grid - Responsive */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 lg:gap-8 max-w-6xl mx-auto">
             <Counter end={5} label="Years of Experience" />
             <Counter end={200} label="Successful Projects" />
             <Counter end={150} label="Happy Clients" />
@@ -299,39 +250,45 @@ const Counter = ({ end, label, duration = 2 }) => {
         </section>
 
         {/* Divider */}
-        <div className="max-w-4xl mx-auto my-20">
-          <div className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
+        <div className="max-w-4xl mx-auto my-8 sm:my-12 md:my-16 lg:my-20">
+          <motion.div 
+            initial={{ scaleX: 0 }}
+            whileInView={{ scaleX: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent"
+          />
         </div>
 
-        {/* Features Section */}
+        {/* Features */}
         <section>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="text-center mb-6 sm:mb-8 md:mb-12 lg:mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 sm:mb-3 md:mb-4 px-4">
               Why Choose <span className="text-green-400">Us</span>
             </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
-              We combine data-driven strategies with creative excellence to deliver exceptional ROI
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto px-4">
+              We combine data-driven strategies with creative excellence
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Feature Cards Grid - Responsive */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-5 lg:gap-6 max-w-6xl mx-auto px-2 sm:px-4">
             <FeatureCard 
               title="Proven Success – Global Reach"
               description="With 5+ years of collective expertise, we've executed 200+ high-impact campaigns, helping brands expand worldwide."
               index={0}
             />
-            
             <FeatureCard 
               title="Custom Strategies – Real Results"
-              description="No generic solutions—our data-driven approach is tailored to your goals, audience, and industry for measurable success."
+              description="No generic solutions—our data-driven approach is tailored to your goals, audience, and industry."
               index={1}
             />
-            
             <FeatureCard 
               title="Client-First – Excellence Always"
               description="Our clients trust us to deliver exceptional results, strategic insights, and continuous growth."
@@ -339,20 +296,6 @@ const Counter = ({ end, label, duration = 2 }) => {
             />
           </div>
         </section>
-      </div>
-
-      {/* Very Subtle Floating Elements (only 3) */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[1, 2, 3].map((i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.05 }}
-            transition={{ duration: 2, delay: i * 0.5 }}
-            className="absolute w-32 h-32 rounded-full bg-gradient-to-br from-green-500/10 to-transparent"
-            
-          />
-        ))}
       </div>
     </div>
   );
