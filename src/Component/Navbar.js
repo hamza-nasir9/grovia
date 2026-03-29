@@ -30,14 +30,13 @@ export default function PremiumNavbar() {
   ];
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${
-      scrolled 
-        ? 'bg-black/95 backdrop-blur-xl py-3 border-b border-emerald-900/20 shadow-lg' 
+    <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled
+        ? 'bg-black/95 backdrop-blur-xl py-3 border-b border-emerald-900/20 shadow-lg'
         : 'bg-gradient-to-b from-black/70 to-transparent py-5'
-    }`}>
+      }`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          
+
           {/* Logo with Simple Bouncing Circle */}
           <Link href="/" className="flex items-center gap-1 group">
             {/* Simple Bouncing Circle */}
@@ -54,7 +53,7 @@ export default function PremiumNavbar() {
             >
               {/* Small Bouncing Circle */}
               <div className="w-3 h-3 rounded-full bg-gradient-to-br from-emerald-400 to-green-500" />
-              
+
               {/* Shadow/Glow Effect */}
               <motion.div
                 animate={{
@@ -69,7 +68,7 @@ export default function PremiumNavbar() {
                 className="absolute inset-0 rounded-full bg-emerald-400 blur-sm"
               />
             </motion.div>
-            
+
             {/* Grovia Text */}
             <div className="relative">
               <h1 className="text-2xl md:text-3xl font-bold text-emerald-400">Grovia</h1>
@@ -83,35 +82,35 @@ export default function PremiumNavbar() {
               <Link
                 key={item.name}
                 href={item.path}
-                className={`relative font-medium transition-colors uppercase ${
-                  pathname === item.path 
-                    ? 'text-emerald-400 font-semibold' 
+                className={`relative font-medium transition-colors uppercase ${pathname === item.path
+                    ? 'text-emerald-400 font-semibold'
                     : 'text-gray-300 hover:text-emerald-300'
-                }`}
+                  }`}
               >
                 {item.name}
                 {pathname === item.path && (
-                  <motion.span 
+                  <motion.span
                     layoutId="underline"
                     className="absolute -bottom-1 left-0 w-full h-0.5 bg-emerald-400 rounded-full"
                   />
                 )}
               </Link>
             ))}
-            
+
             {/* CTA Button */}
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-6 py-2.5 text-sm font-medium cursor-pointer text-white bg-gradient-to-r from-emerald-500 to-green-600 rounded-lg hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300"
-              onClick={() => router.push('/contact')}
-            >
-              Get Started
-            </motion.button>
+            <Link href="/contact" passHref>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-6 py-2.5 text-sm font-medium cursor-pointer text-white bg-gradient-to-r from-emerald-500 to-green-600 rounded-lg hover:shadow-lg hover:shadow-emerald-500/20 transition-all duration-300"
+              >
+                Get Started
+              </motion.button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="lg:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -127,16 +126,15 @@ export default function PremiumNavbar() {
                 key={item.name}
                 href={item.path}
                 onClick={() => setIsOpen(false)}
-                className={`block py-3 px-4 rounded-lg transition-colors ${
-                  pathname === item.path 
-                    ? 'bg-emerald-500/20 text-emerald-400' 
+                className={`block py-3 px-4 rounded-lg transition-colors ${pathname === item.path
+                    ? 'bg-emerald-500/20 text-emerald-400'
                     : 'text-gray-300 hover:bg-white/5 hover:text-white'
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
             ))}
-            
+
             <button
               className="w-full py-3 px-4 rounded-lg bg-gradient-to-r from-emerald-500 to-green-600 text-white font-medium"
               onClick={() => {

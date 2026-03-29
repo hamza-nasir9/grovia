@@ -218,14 +218,18 @@ const HeroSection = () => {
           className="flex flex-wrap gap-4 mb-20 justify-center"
         >
 
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="group px-8 py-4 bg-transparent border-2 border-green-500 rounded-lg text-green-400 font-semibold text-lg flex items-center gap-2 hover:bg-green-500/10 transition-all"
-          >
-            <PlayCircle className="w-5 h-5" />
-            <span>Contact Us</span>
-          </motion.button>
+          <div className="flex justify-center">
+            <Link href="/contact">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="group px-8 py-4 bg-transparent border-2 border-green-500 rounded-lg text-green-400 font-semibold text-lg flex items-center gap-2 hover:bg-green-500/10 transition-all w-auto"
+              >
+                <PlayCircle className="w-5 h-5" />
+                <span>Contact Us</span>
+              </motion.button>
+            </Link>
+          </div>
           <motion.button
             whileHover={{
               scale: 1.05,
@@ -234,7 +238,7 @@ const HeroSection = () => {
             whileTap={{ scale: 0.95 }}
             className="group relative px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-500 rounded-lg text-white font-semibold text-lg flex items-center gap-2 overflow-hidden"
           >
-          <Link href="/ShowProject">Case Studies</Link>
+            <Link href="/ShowProject">Case Studies</Link>
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-600"

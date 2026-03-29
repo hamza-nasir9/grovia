@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/grovia/src/app/contact/page.js"],"sourcesContent":["import React from 'react'\n\nexport default function page() {\n  return (\n    <div>\n        \n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;;;;;AAIL"}}]
+}

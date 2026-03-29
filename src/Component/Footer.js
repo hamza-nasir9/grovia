@@ -174,7 +174,7 @@ const Footer = () => {
               </h3>
               
               <div className="space-y-4">
-                <div className="flex items-start gap-3">
+                {/* <div className="flex items-start gap-3">
                   <div className="w-10 h-10 bg-green-900/30 rounded-lg flex items-center justify-center">
                     <FiPhone className="text-green-400" />
                   </div>
@@ -184,7 +184,7 @@ const Footer = () => {
                       +1 (234) 567-890
                     </a>
                   </div>
-                </div>
+                </div> */}
                 
                 <div className="flex items-start gap-3">
                   <div className="w-10 h-10 bg-green-900/30 rounded-lg flex items-center justify-center">

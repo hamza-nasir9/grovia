@@ -1938,31 +1938,45 @@ const HeroSection = ()=>{
                         },
                         className: "flex flex-wrap gap-4 mb-20 justify-center",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                whileTap: {
-                                    scale: 0.95
-                                },
-                                className: "group px-8 py-4 bg-transparent border-2 border-green-500 rounded-lg text-green-400 font-semibold text-lg flex items-center gap-2 hover:bg-green-500/10 transition-all",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$play$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__PlayCircle$3e$__["PlayCircle"], {
-                                        className: "w-5 h-5"
-                                    }, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-center",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/contact",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                        whileHover: {
+                                            scale: 1.05
+                                        },
+                                        whileTap: {
+                                            scale: 0.95
+                                        },
+                                        className: "group px-8 py-4 bg-transparent border-2 border-green-500 rounded-lg text-green-400 font-semibold text-lg flex items-center gap-2 hover:bg-green-500/10 transition-all w-auto",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$play$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__PlayCircle$3e$__["PlayCircle"], {
+                                                className: "w-5 h-5"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/Hero.js",
+                                                lineNumber: 228,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "Contact Us"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/Hero.js",
+                                                lineNumber: 229,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/Component/Hero.js",
-                                        lineNumber: 226,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "Contact Us"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Component/Hero.js",
-                                        lineNumber: 227,
-                                        columnNumber: 13
+                                        lineNumber: 223,
+                                        columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "[project]/src/Component/Hero.js",
+                                    lineNumber: 222,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, void 0, false, {
                                 fileName: "[project]/src/Component/Hero.js",
                                 lineNumber: 221,
                                 columnNumber: 11
@@ -1982,14 +1996,14 @@ const HeroSection = ()=>{
                                         children: "Case Studies"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Hero.js",
-                                        lineNumber: 237,
-                                        columnNumber: 11
+                                        lineNumber: 241,
+                                        columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                         className: "w-5 h-5 group-hover:translate-x-1 transition-transform"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Hero.js",
-                                        lineNumber: 238,
+                                        lineNumber: 242,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2005,13 +2019,13 @@ const HeroSection = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Hero.js",
-                                        lineNumber: 239,
+                                        lineNumber: 243,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Hero.js",
-                                lineNumber: 229,
+                                lineNumber: 233,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -2034,7 +2048,7 @@ const HeroSection = ()=>{
                         className: "mt-12"
                     }, void 0, false, {
                         fileName: "[project]/src/Component/Hero.js",
-                        lineNumber: 251,
+                        lineNumber: 255,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -4086,9 +4100,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/utils/use-in-view.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/si/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/md/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/tb/index.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
+;
+;
+;
 ;
 ;
 ;
@@ -4096,7 +4116,7 @@ const GroviaServices = ()=>{
     _s();
     var _s1 = __turbopack_context__.k.signature();
     const [activeService, setActiveService] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('digital-marketing');
-    // Service Card Component with Fixed Icon Rendering
+    // Service Card Component
     const ServiceCard = ({ service, index })=>{
         _s1();
         const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -4108,7 +4128,7 @@ const GroviaServices = ()=>{
         const servicesData = {
             'digital-marketing': {
                 title: 'Digital Marketing',
-                icon: '📱',
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MdOutlineTrendingUp"],
                 features: [
                     {
                         name: 'Facebook Ads',
@@ -4124,7 +4144,7 @@ const GroviaServices = ()=>{
                     },
                     {
                         name: 'Snapchat Ads',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaSnapchat"]
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TbBrandSnapchat"]
                     },
                     {
                         name: 'LinkedIn Ads',
@@ -4140,7 +4160,7 @@ const GroviaServices = ()=>{
             },
             'web-development': {
                 title: 'Website Design & Development',
-                icon: '💻',
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLaptopCode"],
                 features: [
                     {
                         name: 'HTML/CSS/JS',
@@ -4156,11 +4176,11 @@ const GroviaServices = ()=>{
                     },
                     {
                         name: 'Magento',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaAws"]
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiMagento"]
                     },
                     {
-                        name: 'PHP',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPhp"]
+                        name: 'React/Next.js',
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaReact"]
                     }
                 ],
                 color: 'from-purple-500/20 to-pink-500/20',
@@ -4172,23 +4192,23 @@ const GroviaServices = ()=>{
             },
             'graphic-design': {
                 title: 'Graphic Designing',
-                icon: '🎨',
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPaintBrush"],
                 features: [
                     {
                         name: 'Post Design',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPalette"]
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiAdobephotoshop"]
                     },
                     {
                         name: 'Logo Design',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPalette"]
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiAdobephotoshop"]
                     },
                     {
                         name: 'Carousel Design',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPalette"]
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiAdobephotoshop"]
                     },
                     {
                         name: 'Brand Identity Design',
-                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPalette"]
+                        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiAdobephotoshop"]
                     }
                 ],
                 color: 'from-orange-500/20 to-yellow-500/20',
@@ -4200,6 +4220,7 @@ const GroviaServices = ()=>{
             }
         };
         const currentService = servicesData[service];
+        const IconComponent = currentService.icon;
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
             ref: ref,
             initial: {
@@ -4229,7 +4250,7 @@ const GroviaServices = ()=>{
                     className: `absolute -inset-1 rounded-2xl blur-lg transition-all duration-500 ${activeService === service ? 'bg-green-500/30 opacity-100' : 'opacity-0'}`
                 }, void 0, false, {
                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                    lineNumber: 70,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4239,11 +4260,17 @@ const GroviaServices = ()=>{
                             className: "flex items-center gap-4 mb-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `text-3xl p-4 rounded-xl bg-gradient-to-br ${currentService.color}`,
-                                    children: currentService.icon
+                                    className: `p-4 rounded-xl bg-gradient-to-br ${currentService.color}`,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(IconComponent, {
+                                        className: "text-3xl text-white"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/Component/Services/ServicesSection.js",
+                                        lineNumber: 94,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                    lineNumber: 76,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4251,19 +4278,19 @@ const GroviaServices = ()=>{
                                     children: currentService.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                    lineNumber: 79,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                            lineNumber: 75,
+                            lineNumber: 92,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             className: "space-y-3 mb-8",
                             children: currentService.features.map((feature, idx)=>{
-                                const IconComponent = feature.icon;
+                                const FeatureIcon = feature.icon;
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].li, {
                                     initial: {
                                         opacity: 0,
@@ -4282,33 +4309,34 @@ const GroviaServices = ()=>{
                                             className: "w-2 h-2 rounded-full bg-green-400"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                            lineNumber: 94,
+                                            lineNumber: 111,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "flex-1",
                                             children: feature.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                            lineNumber: 95,
+                                            lineNumber: 112,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(IconComponent, {
-                                            className: "text-lg opacity-60"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FeatureIcon, {
+                                            className: "text-lg text-green-400/60"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                            lineNumber: 96,
+                                            lineNumber: 113,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, feature.name, true, {
                                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                    lineNumber: 87,
+                                    lineNumber: 104,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0));
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                            lineNumber: 83,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4318,12 +4346,12 @@ const GroviaServices = ()=>{
                                     children: tech
                                 }, tech, false, {
                                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                    lineNumber: 104,
+                                    lineNumber: 121,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                            lineNumber: 102,
+                            lineNumber: 119,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -4334,7 +4362,7 @@ const GroviaServices = ()=>{
                                 scale: 0.95
                             },
                             href: "#contact",
-                            className: "inline-flex items-center justify-center gap-2 w-full bg-gradient-to-r from-green-500 to-emerald-600 text-black font-bold py-3 px-6 rounded-lg hover:from-green-600 hover:to-emerald-700 transition-all duration-300",
+                            className: "inline-flex items-center justify-center gap-2 w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold py-3 px-6 rounded-lg hover:from-green-600 hover:to-emerald-700 transition-all duration-300",
                             children: [
                                 "Let's Scale",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -4349,30 +4377,30 @@ const GroviaServices = ()=>{
                                         d: "M14 5l7 7m0 0l-7 7m7-7H3"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                        lineNumber: 121,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                    lineNumber: 120,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Component/Services/ServicesSection.js",
-                            lineNumber: 113,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Component/Services/ServicesSection.js",
-                    lineNumber: 74,
+                    lineNumber: 91,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/Component/Services/ServicesSection.js",
-            lineNumber: 59,
+            lineNumber: 76,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     };
@@ -4385,7 +4413,7 @@ const GroviaServices = ()=>{
     const ServicesSection = ()=>{
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             id: "services",
-            className: "py-10 ",
+            className: "py-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container mx-auto px-4 md:px-8",
                 children: [
@@ -4412,14 +4440,14 @@ const GroviaServices = ()=>{
                                         children: "Premium"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                        lineNumber: 141,
+                                        lineNumber: 158,
                                         columnNumber: 19
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " Services"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                lineNumber: 140,
+                                lineNumber: 157,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4427,13 +4455,13 @@ const GroviaServices = ()=>{
                                 children: "We combine cutting-edge technology with creative excellence to deliver exceptional results"
                             }, void 0, false, {
                                 fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                lineNumber: 143,
+                                lineNumber: 160,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Component/Services/ServicesSection.js",
-                        lineNumber: 134,
+                        lineNumber: 151,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4444,7 +4472,7 @@ const GroviaServices = ()=>{
                                 index: 0
                             }, void 0, false, {
                                 fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                lineNumber: 149,
+                                lineNumber: 166,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ServiceCard, {
@@ -4452,7 +4480,7 @@ const GroviaServices = ()=>{
                                 index: 1
                             }, void 0, false, {
                                 fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                lineNumber: 150,
+                                lineNumber: 167,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ServiceCard, {
@@ -4460,13 +4488,13 @@ const GroviaServices = ()=>{
                                 index: 2
                             }, void 0, false, {
                                 fileName: "[project]/src/Component/Services/ServicesSection.js",
-                                lineNumber: 151,
+                                lineNumber: 168,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Component/Services/ServicesSection.js",
-                        lineNumber: 148,
+                        lineNumber: 165,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -4484,18 +4512,18 @@ const GroviaServices = ()=>{
                         className: "mt-20 pt-16 border-t border-gray-800"
                     }, void 0, false, {
                         fileName: "[project]/src/Component/Services/ServicesSection.js",
-                        lineNumber: 154,
+                        lineNumber: 171,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/Component/Services/ServicesSection.js",
-                lineNumber: 133,
+                lineNumber: 150,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/Component/Services/ServicesSection.js",
-            lineNumber: 132,
+            lineNumber: 149,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     };
@@ -4503,12 +4531,12 @@ const GroviaServices = ()=>{
         className: "bg-black text-white min-h-screen",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ServicesSection, {}, void 0, false, {
             fileName: "[project]/src/Component/Services/ServicesSection.js",
-            lineNumber: 168,
+            lineNumber: 185,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/Component/Services/ServicesSection.js",
-        lineNumber: 167,
+        lineNumber: 184,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -4545,7 +4573,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-left.js [app-client] (ecmascript) <export default as ChevronLeft>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/quote.js [app-client] (ecmascript) <export default as Quote>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sparkles.js [app-client] (ecmascript) <export default as Sparkles>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-client] (ecmascript) <export default as TrendingUp>");
 ;
 var _s = __turbopack_context__.k.signature();
 // src/Component/TestimonialsPage.js
@@ -4566,7 +4593,7 @@ const testimonials = [
         name: "Alex Morgan",
         role: "CTO, TechCorp Inc.",
         company: "TechCorp",
-        content: "Grovia transformed our marketing approach. The precision targeting and data-driven strategies delivered a 320% ROI in just three months. Their team's expertise is unmatched.",
+        content: "Grovia transformed our marketing approach. The precision targeting and data-driven strategies delivered a 320% ROI in just three months.",
         rating: 5,
         results: [
             {
@@ -4588,7 +4615,7 @@ const testimonials = [
         name: "Sarah Chen",
         role: "VP Marketing, Finova",
         company: "Finova",
-        content: "Working with Grovia was a game-changer. Their innovative approach to performance marketing helped us achieve record-breaking Q4 results. The analytics insights were invaluable.",
+        content: "Working with Grovia was a game-changer. Their innovative approach helped us achieve record-breaking Q4 results.",
         rating: 5,
         results: [
             {
@@ -4610,7 +4637,7 @@ const testimonials = [
         name: "Marcus Johnson",
         role: "CEO, DataSphere",
         company: "DataSphere",
-        content: "The level of sophistication in their campaign strategies is exceptional. Adscalfy's team operates with precision and creativity that's rare in the industry.",
+        content: "The level of sophistication in their campaign strategies is exceptional.",
         rating: 5,
         results: [
             {
@@ -4622,7 +4649,7 @@ const testimonials = [
                 value: "210%"
             },
             {
-                label: "Customer Lifetime Value",
+                label: "CLV",
                 value: "45%"
             }
         ]
@@ -4632,7 +4659,7 @@ const testimonials = [
         name: "Elena Rodriguez",
         role: "Marketing Director, CloudScale",
         company: "CloudScale",
-        content: "From strategy to execution, every detail was handled with expertise. Our market position improved dramatically within the first quarter of partnership.",
+        content: "From strategy to execution, every detail was handled with expertise.",
         rating: 5,
         results: [
             {
@@ -4640,11 +4667,11 @@ const testimonials = [
                 value: "155%"
             },
             {
-                label: "Customer Satisfaction",
+                label: "Satisfaction",
                 value: "98%"
             },
             {
-                label: "Operational Efficiency",
+                label: "Efficiency",
                 value: "60%"
             }
         ]
@@ -4654,11 +4681,11 @@ const testimonials = [
         name: "James Wilson",
         role: "Founder, InnovateAI",
         company: "InnovateAI",
-        content: "Adscalfy's data-first approach delivered insights we never considered. The campaign optimization was surgical in precision. Highly recommended for tech companies.",
+        content: "Adscalfy's data-first approach delivered insights we never considered.",
         rating: 5,
         results: [
             {
-                label: "Series A Success",
+                label: "Series A",
                 value: "100%"
             },
             {
@@ -4666,7 +4693,7 @@ const testimonials = [
                 value: "220%"
             },
             {
-                label: "Platform Adoption",
+                label: "Adoption",
                 value: "190%"
             }
         ]
@@ -4696,8 +4723,8 @@ function TestimonialsPage() {
             children: [
                 ...Array(5)
             ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                    size: 18,
-                    className: i < rating ? 'fill-emerald-400 text-emerald-400' : 'fill-gray-800 text-gray-800'
+                    size: 16,
+                    className: i < rating ? 'fill-emerald-400 text-emerald-400' : 'fill-gray-700 text-gray-700'
                 }, i, false, {
                     fileName: "[project]/src/Component/TestimonialsPage.js",
                     lineNumber: 97,
@@ -4708,60 +4735,6 @@ function TestimonialsPage() {
             lineNumber: 95,
             columnNumber: 5
         }, this);
-    const ResultCard = ({ label, value })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-gradient-to-br from-gray-900 to-black border border-emerald-900/30 rounded-xl p-4",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center gap-3",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "p-2 bg-emerald-500/10 rounded-lg",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
-                            className: "w-4 h-4 text-emerald-400"
-                        }, void 0, false, {
-                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                            lineNumber: 110,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/Component/TestimonialsPage.js",
-                        lineNumber: 109,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-2xl font-bold text-white",
-                                children: value
-                            }, void 0, false, {
-                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                lineNumber: 113,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-gray-400",
-                                children: label
-                            }, void 0, false, {
-                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                lineNumber: 114,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/Component/TestimonialsPage.js",
-                        lineNumber: 112,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/Component/TestimonialsPage.js",
-                lineNumber: 108,
-                columnNumber: 7
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/Component/TestimonialsPage.js",
-            lineNumber: 107,
-            columnNumber: 5
-        }, this);
     const containerVariants = {
         hidden: {
             opacity: 0
@@ -4769,21 +4742,21 @@ function TestimonialsPage() {
         visible: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.2,
-                delayChildren: 0.3
+                staggerChildren: 0.15,
+                delayChildren: 0.2
             }
         }
     };
     const itemVariants = {
         hidden: {
-            y: 60,
+            y: 50,
             opacity: 0
         },
         visible: {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.8,
+                duration: 0.7,
                 ease: [
                     0.22,
                     1,
@@ -4795,17 +4768,17 @@ function TestimonialsPage() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: containerRef,
-        className: "jsx-2f6033f21e0af926" + " " + "min-h-screen bg-black relative overflow-hidden py-20",
+        className: "jsx-3223485b86455037" + " " + "min-h-screen bg-black py-12 md:py-20 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-2f6033f21e0af926" + " " + "absolute inset-0 bg-gradient-to-b from-black via-gray-950 to-black"
+                className: "jsx-3223485b86455037" + " " + "absolute inset-0 bg-gradient-to-b from-black via-gray-950 to-black"
             }, void 0, false, {
                 fileName: "[project]/src/Component/TestimonialsPage.js",
-                lineNumber: 149,
+                lineNumber: 128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-2f6033f21e0af926" + " " + "container mx-auto px-4 relative z-10",
+                className: "jsx-3223485b86455037" + " " + "container mx-auto px-4 md:px-6 relative z-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                     variants: containerVariants,
                     initial: "hidden",
@@ -4814,421 +4787,401 @@ function TestimonialsPage() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             variants: itemVariants,
-                            className: "text-center mb-16",
+                            className: "text-center mb-12 md:mb-16",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-2f6033f21e0af926" + " " + "inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-6",
+                                    className: "jsx-3223485b86455037" + " " + "inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
                                             className: "w-4 h-4 text-emerald-400"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                                            lineNumber: 165,
+                                            lineNumber: 140,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-2f6033f21e0af926" + " " + "text-emerald-400 text-sm font-medium tracking-wider",
+                                            className: "jsx-3223485b86455037" + " " + "text-emerald-400 text-xs md:text-sm font-medium tracking-wider",
                                             children: "TRUSTED BY INDUSTRY LEADERS"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                                            lineNumber: 166,
+                                            lineNumber: 141,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                    lineNumber: 164,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "jsx-2f6033f21e0af926" + " " + "text-4xl md:text-6xl font-bold mb-6",
+                                    className: "jsx-3223485b86455037" + " " + "text-4xl md:text-6xl font-bold mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-2f6033f21e0af926" + " " + "bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent",
+                                        className: "jsx-3223485b86455037" + " " + "bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent",
                                         children: "TESTIMONIALS"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/TestimonialsPage.js",
-                                        lineNumber: 170,
+                                        lineNumber: 145,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                    lineNumber: 169,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-2f6033f21e0af926" + " " + "text-lg text-gray-400 max-w-2xl mx-auto",
-                                    children: "Discover why leading companies choose Grovia for transformative digital marketing solutions"
+                                    className: "jsx-3223485b86455037" + " " + "text-base md:text-lg text-gray-400 max-w-xl mx-auto px-4",
+                                    children: "What our clients say about working with us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                    lineNumber: 175,
+                                    lineNumber: 150,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                            lineNumber: 160,
+                            lineNumber: 138,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "jsx-3223485b86455037" + " " + "text-center mb-8 md:mb-12",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-3223485b86455037" + " " + "inline-flex items-center gap-4 px-6 py-3 bg-gray-900/70 backdrop-blur-md rounded-2xl border border-gray-800",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-3223485b86455037" + " " + "text-emerald-400 font-mono text-xl font-semibold",
+                                        children: String(activeIndex + 1).padStart(2, '0')
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/Component/TestimonialsPage.js",
+                                        lineNumber: 158,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-3223485b86455037" + " " + "w-px h-5 bg-gray-700"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/Component/TestimonialsPage.js",
+                                        lineNumber: 161,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-3223485b86455037" + " " + "text-gray-500 text-sm",
+                                        children: [
+                                            "OF ",
+                                            String(testimonials.length).padStart(2, '0')
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/Component/TestimonialsPage.js",
+                                        lineNumber: 162,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/Component/TestimonialsPage.js",
+                                lineNumber: 157,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                             variants: itemVariants,
-                            className: "relative",
+                            className: "relative px-2 md:px-8",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-2f6033f21e0af926" + " " + "text-center mb-12",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-2f6033f21e0af926" + " " + "inline-flex items-center gap-4 px-6 py-3 bg-gray-900/50 backdrop-blur-sm rounded-full border border-gray-800",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-2f6033f21e0af926" + " " + "text-emerald-400 font-mono text-lg",
-                                                children: String(activeIndex + 1).padStart(2, '0')
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                lineNumber: 198,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-2f6033f21e0af926" + " " + "w-px h-4 bg-gray-700"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                lineNumber: 201,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-2f6033f21e0af926" + " " + "text-gray-400",
-                                                children: [
-                                                    String(testimonials.length).padStart(2, '0'),
-                                                    " testimonials"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                lineNumber: 202,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/Component/TestimonialsPage.js",
-                                        lineNumber: 197,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                    lineNumber: 196,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-2f6033f21e0af926" + " " + "relative px-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Swiper"], {
-                                            modules: [
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$effect$2d$coverflow$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EffectCoverflow$3e$__["EffectCoverflow"],
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__["Autoplay"],
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__["Navigation"],
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$pagination$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Pagination$3e$__["Pagination"]
-                                            ],
-                                            effect: 'coverflow',
-                                            coverflowEffect: {
-                                                rotate: 0,
-                                                stretch: 0,
-                                                depth: 100,
-                                                modifier: 2.5,
-                                                slideShadows: true
-                                            },
-                                            spaceBetween: 20,
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Swiper"], {
+                                    modules: [
+                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$effect$2d$coverflow$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EffectCoverflow$3e$__["EffectCoverflow"],
+                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$autoplay$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Autoplay$3e$__["Autoplay"],
+                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$navigation$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__["Navigation"],
+                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$modules$2f$pagination$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Pagination$3e$__["Pagination"]
+                                    ],
+                                    effect: 'coverflow',
+                                    coverflowEffect: {
+                                        rotate: 0,
+                                        stretch: 0,
+                                        depth: 80,
+                                        modifier: 2.2,
+                                        slideShadows: false
+                                    },
+                                    spaceBetween: 15,
+                                    slidesPerView: 1.1,
+                                    centeredSlides: true,
+                                    loop: true,
+                                    autoplay: {
+                                        delay: 4500,
+                                        disableOnInteraction: false
+                                    },
+                                    navigation: {
+                                        nextEl: '.swiper-button-next-custom',
+                                        prevEl: '.swiper-button-prev-custom'
+                                    },
+                                    pagination: {
+                                        clickable: true,
+                                        el: '.swiper-pagination-custom'
+                                    },
+                                    onSlideChange: (swiper)=>setActiveIndex(swiper.realIndex),
+                                    breakpoints: {
+                                        320: {
+                                            slidesPerView: 1.05,
+                                            spaceBetween: 10
+                                        },
+                                        480: {
+                                            slidesPerView: 1.1,
+                                            spaceBetween: 15
+                                        },
+                                        640: {
                                             slidesPerView: 1.2,
-                                            centeredSlides: true,
-                                            loop: true,
-                                            autoplay: {
-                                                delay: 4000,
-                                                disableOnInteraction: false
-                                            },
-                                            navigation: {
-                                                nextEl: '.swiper-button-next-custom',
-                                                prevEl: '.swiper-button-prev-custom'
-                                            },
-                                            pagination: {
-                                                clickable: true,
-                                                el: '.swiper-pagination-custom'
-                                            },
-                                            onSlideChange: (swiper)=>setActiveIndex(swiper.realIndex),
-                                            breakpoints: {
-                                                640: {
-                                                    slidesPerView: 1.2,
-                                                    spaceBetween: 20
-                                                },
-                                                768: {
-                                                    slidesPerView: 1.5,
-                                                    spaceBetween: 30
-                                                },
-                                                1024: {
-                                                    slidesPerView: 1.8,
-                                                    spaceBetween: 40
-                                                },
-                                                1280: {
-                                                    slidesPerView: 2,
-                                                    spaceBetween: 50
-                                                }
-                                            },
-                                            children: testimonials.map((testimonial)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2f6033f21e0af926" + " " + "bg-gradient-to-b from-gray-900 to-black border-2 border-gray-800 rounded-3xl overflow-hidden h-full transition-all duration-300 hover:border-emerald-500",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-2f6033f21e0af926" + " " + "p-6 md:p-8",
+                                            spaceBetween: 20
+                                        },
+                                        768: {
+                                            slidesPerView: 1.4,
+                                            spaceBetween: 25
+                                        },
+                                        1024: {
+                                            slidesPerView: 1.7,
+                                            spaceBetween: 35
+                                        },
+                                        1280: {
+                                            slidesPerView: 2,
+                                            spaceBetween: 40
+                                        }
+                                    },
+                                    className: "pb-12",
+                                    children: testimonials.map((testimonial)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SwiperSlide"], {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-3223485b86455037" + " " + "bg-gradient-to-b from-gray-900 to-black border border-gray-800 hover:border-emerald-500/50 rounded-3xl overflow-hidden h-full transition-all duration-300 shadow-xl",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-3223485b86455037" + " " + "p-5 md:p-8 lg:p-10",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-3223485b86455037" + " " + "flex items-start justify-between mb-6",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-2f6033f21e0af926" + " " + "flex items-start justify-between mb-6",
+                                                                    className: "jsx-3223485b86455037" + " " + "flex items-center gap-4",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-2f6033f21e0af926",
+                                                                            className: "jsx-3223485b86455037" + " " + "w-11 h-11 md:w-14 md:h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-400 flex items-center justify-center flex-shrink-0",
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-3223485b86455037" + " " + "text-white text-xl font-bold",
+                                                                                children: testimonial.company.charAt(0)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                                lineNumber: 233,
+                                                                                columnNumber: 29
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                            lineNumber: 232,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "jsx-3223485b86455037",
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                    className: "jsx-2f6033f21e0af926" + " " + "flex items-center gap-4 mb-3",
-                                                                                    children: [
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                            className: "jsx-2f6033f21e0af926" + " " + "w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-400 flex items-center justify-center",
-                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                                className: "jsx-2f6033f21e0af926" + " " + "text-white text-lg font-bold",
-                                                                                                children: testimonial.company.charAt(0)
-                                                                                            }, void 0, false, {
-                                                                                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                                lineNumber: 264,
-                                                                                                columnNumber: 33
-                                                                                            }, this)
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                            lineNumber: 263,
-                                                                                            columnNumber: 31
-                                                                                        }, this),
-                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                            className: "jsx-2f6033f21e0af926",
-                                                                                            children: [
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                                                    className: "jsx-2f6033f21e0af926" + " " + "text-xl font-bold text-white",
-                                                                                                    children: testimonial.name
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                                    lineNumber: 269,
-                                                                                                    columnNumber: 33
-                                                                                                }, this),
-                                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                                    className: "jsx-2f6033f21e0af926" + " " + "text-gray-400 text-sm",
-                                                                                                    children: testimonial.role
-                                                                                                }, void 0, false, {
-                                                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                                    lineNumber: 270,
-                                                                                                    columnNumber: 33
-                                                                                                }, this)
-                                                                                            ]
-                                                                                        }, void 0, true, {
-                                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                            lineNumber: 268,
-                                                                                            columnNumber: 31
-                                                                                        }, this)
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                    lineNumber: 262,
-                                                                                    columnNumber: 29
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StarRating, {
-                                                                                    rating: testimonial.rating
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                                    className: "jsx-3223485b86455037" + " " + "text-lg md:text-xl font-semibold text-white leading-tight",
+                                                                                    children: testimonial.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                    lineNumber: 273,
+                                                                                    lineNumber: 238,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                                    className: "jsx-3223485b86455037" + " " + "text-gray-400 text-sm md:text-base mt-0.5",
+                                                                                    children: testimonial.role
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                                    lineNumber: 241,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                            lineNumber: 261,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-2f6033f21e0af926" + " " + "px-3 py-1 bg-emerald-500/10 border border-emerald-500/30 rounded-full",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "jsx-2f6033f21e0af926" + " " + "text-emerald-400 text-xs font-semibold",
-                                                                                children: "Featured"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                lineNumber: 276,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                            lineNumber: 275,
+                                                                            lineNumber: 237,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                    lineNumber: 260,
+                                                                    lineNumber: 231,
                                                                     columnNumber: 25
                                                                 }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-2f6033f21e0af926" + " " + "mb-6",
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__["Quote"], {
-                                                                            className: "w-8 h-8 text-emerald-400/20 mb-4"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                            lineNumber: 282,
-                                                                            columnNumber: 27
-                                                                        }, this),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                            className: "jsx-2f6033f21e0af926" + " " + "text-gray-300 leading-relaxed",
-                                                                            children: testimonial.content
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                            lineNumber: 283,
-                                                                            columnNumber: 27
-                                                                        }, this)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                    lineNumber: 281,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-2f6033f21e0af926" + " " + "grid grid-cols-3 gap-3 pt-6 border-t border-gray-800",
-                                                                    children: testimonial.results.map((result, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "jsx-2f6033f21e0af926" + " " + "text-center",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                    className: "jsx-2f6033f21e0af926" + " " + "text-xl font-bold text-white",
-                                                                                    children: result.value
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                    lineNumber: 292,
-                                                                                    columnNumber: 31
-                                                                                }, this),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                                    className: "jsx-2f6033f21e0af926" + " " + "text-xs text-gray-400",
-                                                                                    children: result.label
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                                    lineNumber: 293,
-                                                                                    columnNumber: 31
-                                                                                }, this)
-                                                                            ]
-                                                                        }, i, true, {
-                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                            lineNumber: 291,
-                                                                            columnNumber: 29
-                                                                        }, this))
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StarRating, {
+                                                                    rating: testimonial.rating
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                                    lineNumber: 289,
+                                                                    lineNumber: 246,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                            lineNumber: 230,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-3223485b86455037" + " " + "mb-8",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__["Quote"], {
+                                                                    className: "w-7 h-7 md:w-9 md:h-9 text-emerald-400/30 mb-4"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                    lineNumber: 251,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "jsx-3223485b86455037" + " " + "text-gray-300 text-[15px] md:text-base leading-relaxed",
+                                                                    children: [
+                                                                        '"',
+                                                                        testimonial.content,
+                                                                        '"'
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                    lineNumber: 252,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                            lineNumber: 250,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-3223485b86455037" + " " + "grid grid-cols-3 gap-3 md:gap-4 pt-6 border-t border-gray-800",
+                                                            children: testimonial.results.map((result, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "jsx-3223485b86455037" + " " + "text-center bg-gray-950/50 rounded-2xl py-3 px-2",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                            className: "jsx-3223485b86455037" + " " + "text-lg md:text-2xl font-bold text-emerald-400",
+                                                                            children: result.value
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                            lineNumber: 261,
+                                                                            columnNumber: 29
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                            className: "jsx-3223485b86455037" + " " + "text-[10px] md:text-xs text-gray-500 mt-1 leading-tight",
+                                                                            children: result.label
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                            lineNumber: 262,
+                                                                            columnNumber: 29
+                                                                        }, this)
+                                                                    ]
+                                                                }, i, true, {
+                                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                                    lineNumber: 260,
+                                                                    columnNumber: 27
+                                                                }, this))
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
                                                             lineNumber: 258,
                                                             columnNumber: 23
                                                         }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                        lineNumber: 257,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, testimonial.id, false, {
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                    lineNumber: 256,
+                                                    lineNumber: 228,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                lineNumber: 227,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, testimonial.id, false, {
+                                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                                            lineNumber: 226,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                    lineNumber: 170,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-3223485b86455037" + " " + "flex items-center justify-center gap-6 md:gap-8 mt-8 md:mt-12",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "jsx-3223485b86455037" + " " + "swiper-button-prev-custom group",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-3223485b86455037" + " " + "w-11 h-11 md:w-12 md:h-12 rounded-2xl bg-gray-900 border border-gray-700 flex items-center justify-center group-hover:border-emerald-500 transition-colors",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
+                                                    className: "w-5 h-5 text-gray-400 group-hover:text-emerald-400"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                    lineNumber: 276,
                                                     columnNumber: 19
-                                                }, this))
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                lineNumber: 275,
+                                                columnNumber: 17
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                                            lineNumber: 209,
+                                            lineNumber: 274,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-2f6033f21e0af926" + " " + "flex items-center justify-center gap-8 mt-12",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "jsx-2f6033f21e0af926" + " " + "swiper-button-prev-custom group",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2f6033f21e0af926" + " " + "w-12 h-12 rounded-full bg-gray-900 border border-gray-800 flex items-center justify-center group-hover:border-emerald-500 transition-all",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
-                                                            className: "w-5 h-5 text-gray-400 group-hover:text-emerald-400"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                            lineNumber: 307,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                        lineNumber: 306,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                    lineNumber: 305,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-2f6033f21e0af926" + " " + "swiper-pagination-custom"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                    lineNumber: 311,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    className: "jsx-2f6033f21e0af926" + " " + "swiper-button-next-custom group",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2f6033f21e0af926" + " " + "w-12 h-12 rounded-full bg-gray-900 border border-gray-800 flex items-center justify-center group-hover:border-emerald-500 transition-all",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                            className: "w-5 h-5 text-gray-400 group-hover:text-emerald-400"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                            lineNumber: 315,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                        lineNumber: 314,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
-                                                    lineNumber: 313,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            className: "jsx-3223485b86455037" + " " + "swiper-pagination-custom"
+                                        }, void 0, false, {
                                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                                            lineNumber: 304,
+                                            lineNumber: 280,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "jsx-3223485b86455037" + " " + "swiper-button-next-custom group",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-3223485b86455037" + " " + "w-11 h-11 md:w-12 md:h-12 rounded-2xl bg-gray-900 border border-gray-700 flex items-center justify-center group-hover:border-emerald-500 transition-colors",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                                    className: "w-5 h-5 text-gray-400 group-hover:text-emerald-400"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                    lineNumber: 284,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/TestimonialsPage.js",
+                                                lineNumber: 283,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Component/TestimonialsPage.js",
+                                            lineNumber: 282,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                                    lineNumber: 208,
+                                    lineNumber: 273,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Component/TestimonialsPage.js",
-                            lineNumber: 192,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Component/TestimonialsPage.js",
-                    lineNumber: 153,
+                    lineNumber: 131,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/Component/TestimonialsPage.js",
-                lineNumber: 152,
+                lineNumber: 130,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "2f6033f21e0af926",
-                children: ".swiper{padding:20px 0!important}.swiper-slide{transition:transform .3s!important}.swiper-slide-active{transform:scale(1.05)!important}.swiper-pagination-custom{justify-content:center;gap:8px;display:flex}.swiper-pagination-bullet{opacity:.5;background:#374151!important;width:8px!important;height:8px!important}.swiper-pagination-bullet-active{opacity:1;background:#10b981!important}.swiper-button-next,.swiper-button-prev{display:none!important}"
+                id: "3223485b86455037",
+                children: ".swiper{padding:10px 0!important}.swiper-slide{transition:transform .4s!important}.swiper-slide-active{transform:scale(1.03)!important}.swiper-pagination-custom{justify-content:center;gap:6px;margin-top:10px;display:flex}.swiper-pagination-bullet{opacity:.6;background:#374151!important;width:7px!important;height:7px!important}.swiper-pagination-bullet-active{opacity:1;border-radius:9999px;background:#10b981!important;width:24px!important}.swiper-button-next,.swiper-button-prev{display:none!important}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/Component/TestimonialsPage.js",
-        lineNumber: 144,
+        lineNumber: 124,
         columnNumber: 5
     }, this);
 }
